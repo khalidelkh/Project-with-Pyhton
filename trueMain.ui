@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+#MainWindow {
+	
+	color: rgb(255, 255, 255);
+	background-color: rgb(56, 58, 89);
+}
+
+#MainWindow QPushButton{
+
+	
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>301</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 29, 35);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <property name="leftMargin">
+      <number>25</number>
+     </property>
+     <property name="topMargin">
+      <number>30</number>
+     </property>
+     <property name="rightMargin">
+      <number>25</number>
+     </property>
+     <property name="bottomMargin">
+      <number>30</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacer_9">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>7</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../pythonProject/icons/scan.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_10">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="home_btn_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>9</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+background-color: rgb(112, 160, 175);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}
+QPushButton:focus {
+    color:black;
+	background-color: rgb(191, 204, 181);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Page d'accueil</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../pythonProject/icons/icons8-smart-home-32.png</normaloff>../pythonProject/icons/icons8-smart-home-32.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="compare_btn_2">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>9</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+	background-color: rgb(112, 160, 175);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}
+QPushButton:focus {
+	background-color: rgb(191, 204, 181);
+	color:black;
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Plagiat comparaision</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../pythonProject/icons/icons8-documents-50.png</normaloff>../pythonProject/icons/icons8-documents-50.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="online_btn_2">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>9</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="contextMenuPolicy">
+          <enum>Qt::ActionsContextMenu</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+background-color: rgb(112, 160, 175);	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}
+QPushButton:focus {
+	background-color: rgb(191, 204, 181);
+	color:black;
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Plagiat en ligne</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../pythonProject/icons/icons8-geography-50.png</normaloff>../pythonProject/icons/icons8-geography-50.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="maybe_btn_2">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>9</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+background-color: rgb(112, 160, 175);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}
+QPushButton:focus {
+	background-color: rgb(191, 204, 181);
+	color:black;
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Info</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../pythonProject/icons/icons8-info-50.png</normaloff>../pythonProject/icons/icons8-info-50.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+         <property name="autoRepeatDelay">
+          <number>300</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="setting_btn_2">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>9</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+background-color: rgb(112, 160, 175);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}
+QPushButton:focus {
+	background-color: rgb(191, 204, 181);
+	color:black;
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Paramètres</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../pythonProject/icons/icons8-settings-50.png</normaloff>../pythonProject/icons/icons8-settings-50.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>155</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="help_btn_2">
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}
+QPushButton:focus {
+	background-color: rgb(191, 204, 181);
+	color:black;
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>§§§§§§§§§</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-question-mark-24.png</normaloff>../pythonProject/icons/icons8-question-mark-24.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>991</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>980</width>
+       <height>670</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(39, 44, 54);
+color: rgb(112, 160, 175);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="home">
+      <widget class="Line" name="line_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-10</y>
+         <width>991</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(141, 142, 145);</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb1_3">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding-top:10px;
+color: rgb(112, 160, 175);</string>
+       </property>
+       <property name="text">
+        <string>Page d'accueil</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb2_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>60</y>
+         <width>691</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(191, 204, 181);</string>
+       </property>
+       <property name="text">
+        <string>Bienvenue sur la page d'accueil de notre application de détection de plagiat !</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>150</y>
+         <width>80</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../pythonProject/icons/icons8-thunder-64.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>260</y>
+         <width>80</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../pythonProject/icons/icons8-student-64.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>490</y>
+         <width>80</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../pythonProject/icons/icons8-secured-50.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>370</y>
+         <width>80</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../pythonProject/icons/icons8-compare-50.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>159</x>
+         <y>140</y>
+         <width>761</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(52, 59, 72);
+border:2px solid rgb(52, 59, 72);
+border-radius: 10px;
+padding-left:10px;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Notre application vous permet de vérifier rapidement et facilement si un texte est original ou d'il contient &lt;/p&gt;&lt;p&gt;des passages plagiés. Nous utilisons une technologie de pointe pour comparer le texte soumis à notre base &lt;/p&gt;&lt;p&gt;de données de sources en ligne, afin de détecter toute correspondance potentiellement problématique.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>159</x>
+         <y>260</y>
+         <width>761</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(52, 59, 72);
+border:2px solid rgb(52, 59, 72);
+border-radius: 10px;
+padding-left:10px;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Notre application est particulièrement utile pour les étudiants, les enseignants, les professionnels de l'écriture &lt;/p&gt;&lt;p&gt;et tous ceux qui ont besoin de s'assurer de l'originalité de leur travail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>159</x>
+         <y>370</y>
+         <width>761</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(52, 59, 72);
+border:2px solid rgb(52, 59, 72);
+border-radius: 10px;
+padding-left:10px;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Avec notre interface conviviale, vous pouvez soumettre votre texte en quelques clics et obtenir des résultats &lt;/p&gt;&lt;p&gt;précis et détaillés en quelques instants. Vous pouvez également comparer plusieurs textes entre eux &lt;/p&gt;&lt;p&gt;pour détecter des similitudes ou des correspondances.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>159</x>
+         <y>490</y>
+         <width>761</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(52, 59, 72);
+border:2px solid rgb(52, 59, 72);
+border-radius: 10px;
+padding-left:10px;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Notre application est entièrement sécurisée et respecte votre vie privée. Nous ne stockons pas vos textes &lt;/p&gt;&lt;p&gt;et ne les partageons pas avec des tiers. Vous pouvez donc utiliser notre application en toute confiance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="compare">
+      <widget class="QTextEdit" name="pte1">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>160</y>
+         <width>400</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+	background-color: rgb(27, 29, 35);
+	border-radius: 5px;
+	padding: 10px;
+}
+QTextEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QTextEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Entrez le premier texte ici</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb2">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>60</y>
+         <width>442</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(191, 204, 181);</string>
+       </property>
+       <property name="text">
+        <string>Comparez deux documents et trouvez la différence</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb1">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>261</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding-top:10px;
+color: rgb(112, 160, 175);</string>
+       </property>
+       <property name="text">
+        <string>Plagiat comparaision</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>120</y>
+         <width>52</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Source</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb4">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>120</y>
+         <width>38</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Cible</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="pte2">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>160</y>
+         <width>400</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+	background-color: rgb(27, 29, 35);
+	border-radius: 5px;
+	padding: 10px;
+}
+QTextEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QTextEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+       </property>
+       <property name="documentTitle">
+        <string>Entry le deuxiéme texte ici</string>
+       </property>
+       <property name="placeholderText">
+        <string>Entrez le premier texte ici</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="import_btn1">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>590</y>
+         <width>169</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Importer le document</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-import-file-32.png</normaloff>../pythonProject/icons/icons8-import-file-32.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="import_btn2">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>590</y>
+         <width>169</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Importer le document</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-import-file-32.png</normaloff>../pythonProject/icons/icons8-import-file-32.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="scan_btn_3">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>590</y>
+         <width>111</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(112, 160, 175);
+	padding: 7px;
+}
+QPushButton:hover {
+	
+	background-color: rgb(191, 204, 181);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Scan</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-search-30.png</normaloff>../pythonProject/icons/icons8-search-30.png</iconset>
+       </property>
+      </widget>
+      <widget class="Line" name="line_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-10</y>
+         <width>1001</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(141, 142, 145);</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="delete_btn1">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>600</y>
+         <width>28</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-broom-64.png</normaloff>../pythonProject/icons/icons8-broom-64.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="delete_btn2">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>600</y>
+         <width>28</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-broom-64.png</normaloff>../pythonProject/icons/icons8-broom-64.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="result_label">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>80</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;</string>
+       </property>
+       <property name="text">
+        <string>Resultat:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="online">
+      <widget class="QPushButton" name="delete_btn1_2">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>600</y>
+         <width>30</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-broom-64.png</normaloff>../pythonProject/icons/icons8-broom-64.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="scan_btn_2">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>591</y>
+         <width>111</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(112, 160, 175);
+	padding: 7px;
+}
+QPushButton:hover {
+	
+	background-color: rgb(191, 204, 181);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Scan</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="pte1_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>180</y>
+         <width>881</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+	background-color: rgb(27, 29, 35);
+	border-radius: 5px;
+	padding: 10px;
+}
+QTextEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QTextEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}
+	
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="placeholderText">
+        <string>Entrez le texte ici pour vérifier le plagiat</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb1_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding-top:10px;
+color: rgb(112, 160, 175);</string>
+       </property>
+       <property name="text">
+        <string>Plagiat en ligne</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="import_btn1_2">
+       <property name="geometry">
+        <rect>
+         <x>71</x>
+         <y>591</y>
+         <width>169</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Importer le document</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-import-file-32.png</normaloff>../pythonProject/icons/icons8-import-file-32.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb2_2">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>60</y>
+         <width>360</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(191, 204, 181);</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Le contenu est scanné sur plusieurs sites&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-10</y>
+         <width>991</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(141, 142, 145);</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="result_label2">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>560</y>
+         <width>521</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;</string>
+       </property>
+       <property name="text">
+        <string>Resultat:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="result_label_2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>110</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+	padding: 7px;</string>
+       </property>
+       <property name="text">
+        <string>Ajouter des sources :</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="pte1_3">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>110</y>
+         <width>441</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QTextEdit {
+	background-color: rgb(27, 29, 35);
+	border-radius: 5px;
+	padding: 10px;
+}
+QTextEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QTextEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}
+	</string>
+       </property>
+       <property name="placeholderText">
+        <string>https://www.exemple-source.com</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="scan_btn_4">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>110</y>
+         <width>111</width>
+         <height>38</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(112, 160, 175);
+	padding: 7px;
+}
+QPushButton:hover {
+	
+	background-color: rgb(191, 204, 181);
+	border: 2px solid rgb(61, 70, 86);
+	padding: 7px;
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+	padding: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="what">
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>130</y>
+         <width>871</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pourquoi choisir notre vérificateur de plagiat
+Notre vérificateur de plagiat fournit de nombreuses fonctionnalités. Certaines fonctions comparatives qui rendent notre outil analyse de plagiat unique par rapport aux autres sont décrites ci-dessous.
+logo
+Recherche rapide gratuite
+Notre detecteur de plagiat en ligne est gratuit. Son algorithme avancé et conçu pour vous montrer des résultats instantanés sans délai.
+
+logo
+Recherche en profondeur
+Ce logiciel antiplagiat en ligne vous offre une fonction vérification plagiat approfondie. Vous obtiendrez des niveaux supplémentaires de recherche de plagiat et de résultats.
+
+logo
+Téléchargement d'URL ou de fichier
+Notre site anti plagiat peut toujours vous aider si votre contenu est au format fichier ou URL. Il vous permet de télécharger un fichier ou une URL vers vérifier plagiat en ligne.</string>
+       </property>
+      </widget>
+      <widget class="Line" name="line_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-10</y>
+         <width>991</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(141, 142, 145);</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="settings">
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>220</y>
+         <width>55</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>parametre</string>
+       </property>
+      </widget>
+      <widget class="Line" name="line_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-10</y>
+         <width>991</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(141, 142, 145);</string>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb1_4">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding-top:10px;
+color: rgb(112, 160, 175);</string>
+       </property>
+       <property name="text">
+        <string>Paramètres</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb2_4">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>60</y>
+         <width>461</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(191, 204, 181);</string>
+       </property>
+       <property name="text">
+        <string>Comparez deux documents et trouvez la différence</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="menu" native="true">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>991</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 29, 35);
+background-color: rgb(36, 39, 47);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>30</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>316</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mode_btn_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-sun-24.png</normaloff>../pythonProject/icons/icons8-sun-24.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="language_btn_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-language-50.png</normaloff>../pythonProject/icons/icons8-language-50.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="info_btn_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../pythonProject/icons/icons8-inquiry-50.png</normaloff>../pythonProject/icons/icons8-inquiry-50.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
